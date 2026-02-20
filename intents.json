@@ -1,0 +1,25 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello!", "Hi there!", "Hey 👋"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye"],
+      "responses": ["Goodbye!", "See you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you"],
+      "responses": ["You're welcome!", "My pleasure!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["Who are you?", "What are you?"],
+      "responses": ["I'm Joana, your AI assistant."]
+    }
+  ]
+}
