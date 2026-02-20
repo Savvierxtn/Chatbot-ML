@@ -9,8 +9,9 @@ jobs:
     strategy:
       matrix:
         python-version: ["3.9", "3.10", "3.11"]
-        
-- uses: actions/checkout@v4
+
+    steps:
+    - uses: actions/checkout@v4
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -24,4 +25,4 @@ jobs:
 
     - name: Run basic checks
       run: |
-        python -m compileall dependencies/
+        python -m compileall src/
